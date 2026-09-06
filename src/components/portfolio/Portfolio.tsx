@@ -27,12 +27,9 @@ import {
 } from "@/components/ui/dialog";
 
 const GITHUB_URL = "https://github.com/priyansh-pixel";
-const LINKEDIN_URL = "https://www.linkedin.com/in/priyanshsrivastava12";
+const LINKEDIN_URL = "https://www.linkedin.com/in/priyanshsrivastava12/";
 const EMAIL_URL = "mailto:srivastavapriyansh2499@gmail.com";
-// TODO: Place the actual PDF resume at public/Priyansh_Srivastava_Resume.pdf,
-// then set RESUME_URL to "/Priyansh_Srivastava_Resume.pdf" and re-enable the
-// Resume / Download Resume buttons by restoring the <a href={RESUME_URL}> wrappers.
-const RESUME_URL = "#";
+const RESUME_URL = "/Priyansh_Srivastava_Resume.pdf";
 
 /* ---------------------------------- data --------------------------------- */
 
@@ -370,12 +367,14 @@ export function Portfolio() {
                   </a>
                 </Button>
                 <Button asChild variant="subtle" size="lg">
-                  <a href={LINKEDIN_URL} target="_blank" rel="noreferrer noopener">
+                  <a href={LINKEDIN_URL}>
                     <Linkedin aria-hidden="true" /> LinkedIn
                   </a>
                 </Button>
-                <Button variant="subtle" size="lg" disabled>
-                  <Download aria-hidden="true" /> Resume
+                <Button asChild variant="subtle" size="lg">
+                  <a href={RESUME_URL} download>
+                    <Download aria-hidden="true" /> Resume
+                  </a>
                 </Button>
               </div>
             </Reveal>
@@ -649,7 +648,7 @@ export function Portfolio() {
               </p>
               <div className="mt-9 flex flex-wrap justify-center gap-3">
                 <Button asChild variant="hero" size="lg">
-                  <a href={LINKEDIN_URL} target="_blank" rel="noreferrer noopener">
+                  <a href={LINKEDIN_URL}>
                     <Linkedin aria-hidden="true" /> LinkedIn
                   </a>
                 </Button>
@@ -663,8 +662,10 @@ export function Portfolio() {
                     <Mail aria-hidden="true" /> Email
                   </a>
                 </Button>
-                <Button variant="subtle" size="lg" disabled>
-                  <Download aria-hidden="true" /> Download Resume
+                <Button asChild variant="subtle" size="lg">
+                  <a href={RESUME_URL} download>
+                    <Download aria-hidden="true" /> Download Resume
+                  </a>
                 </Button>
               </div>
             </Reveal>

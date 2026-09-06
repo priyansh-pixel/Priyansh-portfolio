@@ -2,7 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { Portfolio } from "@/components/portfolio/Portfolio";
 
 const GITHUB_URL = "https://github.com/priyansh-pixel";
-const LINKEDIN_URL = "https://www.linkedin.com/in/priyanshsrivastava12";
+const LINKEDIN_URL = "https://www.linkedin.com/in/priyanshsrivastava12/";
 const PAGE_TITLE = "Priyansh Srivastava | Business Transformation & Technology Consulting";
 const PAGE_DESCRIPTION =
   "Portfolio of Priyansh Srivastava — consultant focused on business transformation, process improvement, O2C, analytics, and operations.";
