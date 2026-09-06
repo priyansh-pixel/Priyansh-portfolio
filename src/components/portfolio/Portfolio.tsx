@@ -367,7 +367,7 @@ export function Portfolio() {
                   </a>
                 </Button>
                 <Button asChild variant="subtle" size="lg">
-                  <a href={LINKEDIN_URL}>
+                  <a href={LINKEDIN_URL} target="_top" rel="noreferrer noopener">
                     <Linkedin aria-hidden="true" /> LinkedIn
                   </a>
                 </Button>
@@ -648,7 +648,7 @@ export function Portfolio() {
               </p>
               <div className="mt-9 flex flex-wrap justify-center gap-3">
                 <Button asChild variant="hero" size="lg">
-                  <a href={LINKEDIN_URL}>
+                  <a href={LINKEDIN_URL} target="_top" rel="noreferrer noopener">
                     <Linkedin aria-hidden="true" /> LinkedIn
                   </a>
                 </Button>
