@@ -27,12 +27,12 @@ import {
 } from "@/components/ui/dialog";
 
 const GITHUB_URL = "https://github.com/priyansh-pixel";
-// TODO: replace "#" with the real LinkedIn profile URL
-const LINKEDIN_URL = "#";
-// TODO: replace "#" with a link to the downloadable resume (PDF)
+const LINKEDIN_URL = "https://www.linkedin.com/in/priyanshsrivastava12";
+const EMAIL_URL = "mailto:srivastavapriyansh2499@gmail.com";
+// TODO: Place the actual PDF resume at public/Priyansh_Srivastava_Resume.pdf,
+// then set RESUME_URL to "/Priyansh_Srivastava_Resume.pdf" and re-enable the
+// Resume / Download Resume buttons by restoring the <a href={RESUME_URL}> wrappers.
 const RESUME_URL = "#";
-// TODO: replace with the real email address
-const EMAIL_URL = "mailto:your.email@example.com";
 
 /* ---------------------------------- data --------------------------------- */
 
