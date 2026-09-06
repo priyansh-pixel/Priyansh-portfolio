@@ -369,17 +369,13 @@ export function Portfolio() {
                     <Github aria-hidden="true" /> GitHub
                   </a>
                 </Button>
-                {/* TODO: replace LINKEDIN_URL with the real LinkedIn profile link */}
                 <Button asChild variant="subtle" size="lg">
-                  <a href={LINKEDIN_URL}>
+                  <a href={LINKEDIN_URL} target="_blank" rel="noreferrer noopener">
                     <Linkedin aria-hidden="true" /> LinkedIn
                   </a>
                 </Button>
-                {/* TODO: replace RESUME_URL with the downloadable resume link */}
-                <Button asChild variant="subtle" size="lg">
-                  <a href={RESUME_URL}>
-                    <Download aria-hidden="true" /> Resume
-                  </a>
+                <Button variant="subtle" size="lg" disabled>
+                  <Download aria-hidden="true" /> Resume
                 </Button>
               </div>
             </Reveal>
@@ -652,9 +648,8 @@ export function Portfolio() {
                 opportunities.
               </p>
               <div className="mt-9 flex flex-wrap justify-center gap-3">
-                {/* TODO: replace LINKEDIN_URL with the real LinkedIn profile link */}
                 <Button asChild variant="hero" size="lg">
-                  <a href={LINKEDIN_URL}>
+                  <a href={LINKEDIN_URL} target="_blank" rel="noreferrer noopener">
                     <Linkedin aria-hidden="true" /> LinkedIn
                   </a>
                 </Button>
@@ -663,17 +658,13 @@ export function Portfolio() {
                     <Github aria-hidden="true" /> GitHub
                   </a>
                 </Button>
-                {/* TODO: replace EMAIL_URL with the real email address */}
                 <Button asChild variant="subtle" size="lg">
                   <a href={EMAIL_URL}>
                     <Mail aria-hidden="true" /> Email
                   </a>
                 </Button>
-                {/* TODO: replace RESUME_URL with the downloadable resume link */}
-                <Button asChild variant="subtle" size="lg">
-                  <a href={RESUME_URL}>
-                    <Download aria-hidden="true" /> Download Resume
-                  </a>
+                <Button variant="subtle" size="lg" disabled>
+                  <Download aria-hidden="true" /> Download Resume
                 </Button>
               </div>
             </Reveal>

@@ -31,7 +31,7 @@ export const Route = createFileRoute("/")({
           name: "Priyansh Srivastava",
           jobTitle: "Consultant — Business Transformation & Technology Consulting",
           url: "/",
-          sameAs: [GITHUB_URL],
+          sameAs: [GITHUB_URL, LINKEDIN_URL],
           alumniOf: [
             { "@type": "CollegeOrUniversity", name: "Kalinga Institute of Industrial Technology" },
             { "@type": "CollegeOrUniversity", name: "Great Lakes Institute of Management, Gurgaon" },
