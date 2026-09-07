@@ -98,4 +98,6 @@ This portfolio is built with TypeScript, Tailwind CSS, shadcn/ui, and the Lovabl
 - GitHub: https://github.com/priyansh-pixel
 - Email: srivastavapriyansh2499@gmail.com
 
+---
+
 Built as a professional portfolio for business transformation, consulting, analytics, and operations-focused opportunities.
