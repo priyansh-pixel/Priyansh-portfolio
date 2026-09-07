@@ -375,8 +375,6 @@ export function Portfolio() {
                   <a
                     href={RESUME_URL}
                     download="Priyansh_Srivastava_Resume.pdf"
-                    target="_blank"
-                    rel="noreferrer"
                   >
                     <Download aria-hidden="true" /> Resume
                   </a>
@@ -671,8 +669,6 @@ export function Portfolio() {
                   <a
                     href={RESUME_URL}
                     download="Priyansh_Srivastava_Resume.pdf"
-                    target="_blank"
-                    rel="noreferrer"
                   >
                     <Download aria-hidden="true" /> Download Resume
                   </a>
