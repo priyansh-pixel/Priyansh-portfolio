@@ -367,12 +367,17 @@ export function Portfolio() {
                   </a>
                 </Button>
                 <Button asChild variant="subtle" size="lg">
-                  <a href={LINKEDIN_URL} target="_top" rel="noreferrer noopener">
+                  <a href={LINKEDIN_URL} target="_blank" rel="noreferrer noopener">
                     <Linkedin aria-hidden="true" /> LinkedIn
                   </a>
                 </Button>
                 <Button asChild variant="subtle" size="lg">
-                  <a href={RESUME_URL} download>
+                  <a
+                    href={RESUME_URL}
+                    download="Priyansh_Srivastava_Resume.pdf"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <Download aria-hidden="true" /> Resume
                   </a>
                 </Button>
@@ -648,7 +653,7 @@ export function Portfolio() {
               </p>
               <div className="mt-9 flex flex-wrap justify-center gap-3">
                 <Button asChild variant="hero" size="lg">
-                  <a href={LINKEDIN_URL} target="_top" rel="noreferrer noopener">
+                  <a href={LINKEDIN_URL} target="_blank" rel="noreferrer noopener">
                     <Linkedin aria-hidden="true" /> LinkedIn
                   </a>
                 </Button>
@@ -663,7 +668,12 @@ export function Portfolio() {
                   </a>
                 </Button>
                 <Button asChild variant="subtle" size="lg">
-                  <a href={RESUME_URL} download>
+                  <a
+                    href={RESUME_URL}
+                    download="Priyansh_Srivastava_Resume.pdf"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <Download aria-hidden="true" /> Download Resume
                   </a>
                 </Button>
